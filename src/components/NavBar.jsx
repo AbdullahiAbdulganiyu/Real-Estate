@@ -20,6 +20,9 @@ const NavBar = () => {
             Testimonials
           </a>
         </ul>
+        <button className="hidden md:block bg-white px-8 py-2 rounded-full">
+          Sign Up
+        </button>
       </div>
     </div>
   );
