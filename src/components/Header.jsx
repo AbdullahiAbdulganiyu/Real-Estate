@@ -9,6 +9,13 @@ const Header = () => {
       id="Header"
     >
       <NavBar />
+      <div>
+        <h2>Explore homes that fit your dreams</h2>
+      </div>
+      <div>
+        <a href="">Projects</a>
+        <a href="">Contact Us</a>
+      </div>
     </div>
   );
 };
