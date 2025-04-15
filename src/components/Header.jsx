@@ -11,10 +11,10 @@ const Header = () => {
       <NavBar />
       <div className="container text-center mx-auto py-4 px-6 md:px-20 lg:px-32 text-white ">
         <h2>Explore homes that fit your dreams</h2>
-      </div>
-      <div>
-        <a href="">Projects</a>
-        <a href="">Contact Us</a>
+        <div>
+          <a href="">Projects</a>
+          <a href="">Contact Us</a>
+        </div>
       </div>
     </div>
   );
