@@ -9,7 +9,7 @@ const Header = () => {
       id="Header"
     >
       <NavBar />
-      <div>
+      <div className="container text-center mx-auto py-4 px-6 md:px-20 lg:px-32 text-white ">
         <h2>Explore homes that fit your dreams</h2>
       </div>
       <div>
