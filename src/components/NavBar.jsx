@@ -35,7 +35,11 @@ const NavBar = () => {
         />
       </div>
       {/* ------------------ mobile-menu--------------- */}
-      <div className="md:hidden fixed w-full right-0 top-0 buttom-0 overflow-hidden bg-white transition-all">
+      <div
+        className={`md:hidden ${
+          showmobileMenu ? "fixed w-full" : "h-0 w-0"
+        } right-0 top-0 buttom-0 overflow-hidden bg-white transition-all`}
+      >
         <div className="flex justify-end p-6 cursor-pointer">
           <img src={assets.cross_icon} className="w-6" alt="cross_icon" />
         </div>
