@@ -29,6 +29,23 @@ const NavBar = () => {
 
         <img src={assets.menu_icon} className="md:hidden w-7" alt="menu_icon" />
       </div>
+      {/* ------------------ mobile-menu--------------- */}
+      <div>
+        <ul>
+          <a href="#Header" className="px-4 py-2">
+            Header
+          </a>
+          <a href="#About" className="px-4 py-2">
+            About
+          </a>
+          <a href="#Projects" className="px-4 py-2">
+            Projects
+          </a>
+          <a href="#Testimonials" className="px-4 py-2">
+            Testimonials
+          </a>
+        </ul>
+      </div>
     </div>
   );
 };
