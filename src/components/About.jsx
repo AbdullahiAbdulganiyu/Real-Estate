@@ -12,7 +12,9 @@ const About = () => {
           Our Brand
         </span>
       </h1>
-      <p>Passionate About Properties, Dedicated to Your Vision</p>
+      <p className="text-gray-500 max-w-80 text-center mb-8 ">
+        Passionate About Properties, Dedicated to Your Vision
+      </p>
     </div>
   );
 };
