@@ -33,7 +33,7 @@ const NavBar = () => {
       <div className="md:hidden fixed w-full right-0 top-0 buttom-0 overflow-hidden">
         <ul className="flex flex-col items-center gap-2 mt-5 px-5 text-lg font-medium">
           <a href="#Header" className="px-4 py-2">
-            Header
+            Home
           </a>
           <a href="#About" className="px-4 py-2">
             About
