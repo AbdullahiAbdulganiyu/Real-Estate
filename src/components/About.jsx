@@ -47,6 +47,9 @@ const About = () => {
             ever since the 1500s, when an unknown printer took a galley of type
             and scrambled it to make a type specimen book.
           </p>
+          <button className="bg-blue-600 text-white px-8 py-2 rounded">
+            Learn More
+          </button>
         </div>
       </div>
     </div>
