@@ -30,7 +30,7 @@ const NavBar = () => {
         <img src={assets.menu_icon} className="md:hidden w-7" alt="menu_icon" />
       </div>
       {/* ------------------ mobile-menu--------------- */}
-      <div>
+      <div className="md:hidden fixed w-full right-0 top-0 buttom-0 overflow-hidden">
         <ul>
           <a href="#Header" className="px-4 py-2">
             Header
