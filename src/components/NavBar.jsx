@@ -31,7 +31,7 @@ const NavBar = () => {
       </div>
       {/* ------------------ mobile-menu--------------- */}
       <div className="md:hidden fixed w-full right-0 top-0 buttom-0 overflow-hidden bg-white transition-all">
-        <div>
+        <div className="flex justify-end p-6">
           <img src={assets.cross_icon} className="w-6" alt="cross_icon" />
         </div>
         <ul className="flex flex-col items-center gap-2 mt-5 px-5 text-lg font-medium">
