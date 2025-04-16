@@ -31,7 +31,7 @@ const NavBar = () => {
       </div>
       {/* ------------------ mobile-menu--------------- */}
       <div className="md:hidden fixed w-full right-0 top-0 buttom-0 overflow-hidden">
-        <ul>
+        <ul className="flex flex-col">
           <a href="#Header" className="px-4 py-2">
             Header
           </a>
