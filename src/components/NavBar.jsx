@@ -23,6 +23,8 @@ const NavBar = () => {
         <button className="hidden md:block bg-white px-8 py-2 rounded-full">
           Sign Up
         </button>
+
+        <img src={assets.menu_icon} className="md:hidden w-7" alt="menu_icon" />
       </div>
     </div>
   );
