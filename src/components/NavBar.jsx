@@ -27,7 +27,11 @@ const NavBar = () => {
           Sign Up
         </button>
 
-        <img src={assets.menu_icon} className="md:hidden w-7" alt="menu_icon" />
+        <img
+          src={assets.menu_icon}
+          className="md:hidden w-7 cursor-pointer"
+          alt="menu_icon"
+        />
       </div>
       {/* ------------------ mobile-menu--------------- */}
       <div className="md:hidden fixed w-full right-0 top-0 buttom-0 overflow-hidden bg-white transition-all">
