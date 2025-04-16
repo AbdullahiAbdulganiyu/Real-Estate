@@ -32,7 +32,7 @@ const NavBar = () => {
       {/* ------------------ mobile-menu--------------- */}
       <div className="md:hidden fixed w-full right-0 top-0 buttom-0 overflow-hidden bg-white transition-all">
         <div>
-          <img src={assets.cross_icon} alt="cross_icon" />
+          <img src={assets.cross_icon} className="w-6" alt="cross_icon" />
         </div>
         <ul className="flex flex-col items-center gap-2 mt-5 px-5 text-lg font-medium">
           <a href="#Header" className="px-4 py-2">
