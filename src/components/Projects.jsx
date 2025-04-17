@@ -24,6 +24,12 @@ const Projects = () => {
         >
           <img src={assets.left_arrow} alt="Previous" />
         </button>
+        <button
+          className="p-3 bg-gray-200 rounded mr-2"
+          aria-label="Next Project"
+        >
+          <img src={assets.right_arrow} alt="Next" />
+        </button>
       </div>
     </div>
   );
