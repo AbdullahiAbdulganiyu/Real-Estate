@@ -17,7 +17,7 @@ const Projects = () => {
         Crafting Spaces, Building Legacies-Explore Our Portfolio
       </p>
       {/* slider buttons */}
-      <div>
+      <div className="flex justify-end items-center mb-8">
         <button
           className="p-3 bg-gray-200 rounded mr-2"
           aria-label="Previous Project"
