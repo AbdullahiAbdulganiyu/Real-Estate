@@ -29,7 +29,7 @@ const Testimonials = () => {
             />
             <h2>{testimonial.name}</h2>
             <p>{testimonial.title}</p>
-            <div>
+            <div className="flex justify-center gap-1 text-red-500 mb-4">
               {Array.from({ length: testimonial.rating }, (item, index) => (
                 <img key={index} src={assets.star_icon} alt="Rating" />
               ))}
