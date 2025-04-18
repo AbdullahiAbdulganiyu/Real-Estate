@@ -18,7 +18,10 @@ const Testimonials = () => {
       </p>
       <div className="flex flex-wrap justify-center gap-8">
         {testimonialsData.map((testimonial, index) => (
-          <div key={index}>
+          <div
+            key={index}
+            className="max-w-[340px] border shadow-lg rounded px-8 py-12 text-center"
+          >
             <img src={testimonial.image} alt={testimonial.alt} />
           </div>
         ))}
