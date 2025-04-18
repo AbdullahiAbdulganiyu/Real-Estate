@@ -4,6 +4,10 @@ import { assets, projectsData } from "../assets/assets";
 const Projects = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [cardToShow, setCardsToShow] = useState(1);
+
+  const nextProject = (prevIndex) =>
+    setCurrentIndex((prevIndex + 1) % projectsData.length);
+
   return (
     <div
       className="container mx-auto py-4 pt-20 px-6 md:px-20 lg-px-32 my-20 w-full overflow-hidden"
