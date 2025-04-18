@@ -30,6 +30,7 @@ const Projects = () => {
       {/* slider buttons */}
       <div className="flex justify-end items-center mb-8">
         <button
+          onClick={prevProject}
           className="p-3 bg-gray-200 rounded mr-2"
           aria-label="Previous Project"
         >
