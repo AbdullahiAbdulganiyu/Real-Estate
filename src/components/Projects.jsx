@@ -42,6 +42,9 @@ const Projects = () => {
                   <h2 className="text-xl font-semibold text-gray-800">
                     {project.title}
                   </h2>
+                  <p>
+                    {project.price} <span>|</span> {project.location}
+                  </p>
                 </div>
               </div>
             </div>
