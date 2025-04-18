@@ -34,6 +34,7 @@ const Testimonials = () => {
                 <img key={index} src={assets.star_icon} alt="Rating" />
               ))}
             </div>
+            <p className="text-gray-600">{testimonial.text}</p>
           </div>
         ))}
       </div>
