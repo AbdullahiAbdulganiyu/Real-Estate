@@ -12,7 +12,9 @@ const Testimonials = () => {
           Testimonials
         </span>
       </h1>
-      <p>Real Stories from Those who found Home with Us</p>
+      <p className="text-center text-gray-500 mb-12 max-w-80 mx-auto">
+        Real Stories from Those who found Home with Us
+      </p>
     </div>
   );
 };
