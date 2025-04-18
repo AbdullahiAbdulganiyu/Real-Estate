@@ -1,4 +1,5 @@
 import React from "react";
+import { testimonialsData } from "../assets/assets";
 
 const Testimonials = () => {
   return (
@@ -15,6 +16,13 @@ const Testimonials = () => {
       <p className="text-center text-gray-500 mb-12 max-w-80 mx-auto">
         Real Stories from Those who found Home with Us
       </p>
+      <div>
+        {testimonialsData.map((testimonial, index) => (
+          <div key={index}>
+            <img src={testimonial.image} alt={testimonial.alt} />
+          </div>
+        ))}
+      </div>
     </div>
   );
 };
