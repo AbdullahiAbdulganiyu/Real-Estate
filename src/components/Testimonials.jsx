@@ -2,7 +2,7 @@ import React from "react";
 
 const Testimonials = () => {
   return (
-    <div>
+    <div className="container mx-auto px-10 lg:px-32 w-full overflow-hidden">
       <h1>
         Customers <span>Testimonials</span>
       </h1>
