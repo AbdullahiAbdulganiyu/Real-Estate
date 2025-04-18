@@ -5,10 +5,10 @@ const Projects = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [cardToShow, setCardsToShow] = useState(1);
 
-  const nextProject = (prevIndex) =>
-    setCurrentIndex((prevIndex + 1) % projectsData.length);
+  const nextProject = () =>
+    setCurrentIndex((prevIndex) => (prevIndex + 1) % projectsData.length);
 
-  const prevProject = (prevIndex) =>
+  const prevProject = () =>
     setCurrentIndex((prevIndex) =>
       prevIndex === 0 ? projectsData.length - 1 : prevIndex - 1
     );
