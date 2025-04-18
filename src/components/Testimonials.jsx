@@ -22,7 +22,11 @@ const Testimonials = () => {
             key={index}
             className="max-w-[340px] border shadow-lg rounded px-8 py-12 text-center"
           >
-            <img src={testimonial.image} alt={testimonial.alt} />
+            <img
+              className="w-20 h-20 rounded-full mx-auto mb-4"
+              src={testimonial.image}
+              alt={testimonial.alt}
+            />
           </div>
         ))}
       </div>
