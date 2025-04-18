@@ -8,6 +8,11 @@ const Projects = () => {
   const nextProject = (prevIndex) =>
     setCurrentIndex((prevIndex + 1) % projectsData.length);
 
+  const prevProject = (prevIndex) =>
+    setCurrentIndex((prevIndex) =>
+      prevIndex === 0 ? projectsData.length - 1 : prevIndex - 1
+    );
+
   return (
     <div
       className="container mx-auto py-4 pt-20 px-6 md:px-20 lg-px-32 my-20 w-full overflow-hidden"
