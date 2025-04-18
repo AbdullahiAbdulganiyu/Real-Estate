@@ -27,8 +27,10 @@ const Testimonials = () => {
               src={testimonial.image}
               alt={testimonial.alt}
             />
-            <h2>{testimonial.name}</h2>
-            <p>{testimonial.title}</p>
+            <h2 className="text-xl text-gray-700 font-medium">
+              {testimonial.name}
+            </h2>
+            <p className="text-gray-500 mb-4 text-sm">{testimonial.title}</p>
             <div className="flex justify-center gap-1 text-red-500 mb-4">
               {Array.from({ length: testimonial.rating }, (item, index) => (
                 <img key={index} src={assets.star_icon} alt="Rating" />
