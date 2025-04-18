@@ -3,7 +3,7 @@ import { assets, projectsData } from "../assets/assets";
 
 const Projects = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
-  const [cardToShow, setCardsToShow] = useState(1);
+  const [cardsToShow, setCardsToShow] = useState(1);
 
   const nextProject = () =>
     setCurrentIndex((prevIndex) => (prevIndex + 1) % projectsData.length);
@@ -49,7 +49,7 @@ const Projects = () => {
         <div
           className="flex gap-8 transition-transform duration-500 ease-in-out"
           style={{
-            transform: `translateX(-${(currentIndex * 100) / cardToShow}%)`,
+            transform: `translateX(-${(currentIndex * 100) / cardsToShow}%)`,
           }}
         >
           {projectsData.map((project, index) => (
