@@ -37,6 +37,7 @@ const Projects = () => {
           <img src={assets.left_arrow} alt="Previous" />
         </button>
         <button
+          onClick={nextProject}
           className="p-3 bg-gray-200 rounded mr-2"
           aria-label="Next Project"
         >
