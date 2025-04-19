@@ -39,6 +39,10 @@ const Contact = () => {
             />
           </div>
         </div>
+        <div>
+          Message
+          <textarea name="Message" placeholder="Message" required></textarea>
+        </div>
       </form>
     </div>
   );
