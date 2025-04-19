@@ -18,7 +18,7 @@ const Contact = () => {
 
       <form>
         <div>
-          <div>
+          <div className="w-full md:w-1/2 text-left">
             Your Name
             <input type="text" placeholder="Your Name" required />
           </div>
