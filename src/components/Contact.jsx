@@ -23,6 +23,7 @@ const Contact = () => {
             <input
               className="w-full border border-gray-300 rounded py-3 px-4 mt-2 "
               type="text"
+              name="Name"
               placeholder="Your Name"
               required
             />
