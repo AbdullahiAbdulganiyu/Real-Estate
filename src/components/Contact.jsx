@@ -48,6 +48,7 @@ const Contact = () => {
             required
           ></textarea>
         </div>
+        <button>Send Message</button>
       </form>
     </div>
   );
