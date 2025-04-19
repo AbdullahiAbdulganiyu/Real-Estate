@@ -15,7 +15,7 @@ const Footer = () => {
             industry. Lorem Ipsum has been the industry's standard dummy text.
           </p>
         </div>
-        <div>
+        <div className="w-full md:1/5 mb-8 md:mb-0">
           <h3 className="text-white text-lg font-bold mb-4">Company</h3>
           <ul>
             <a href="#Header" className="hover:text-white">
