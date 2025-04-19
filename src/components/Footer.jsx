@@ -17,7 +17,7 @@ const Footer = () => {
         </div>
         <div className="w-full md:1/5 mb-8 md:mb-0">
           <h3 className="text-white text-lg font-bold mb-4">Company</h3>
-          <ul>
+          <ul className="flex flex-col gap-2 text-gray-400 ">
             <a href="#Header" className="hover:text-white">
               Home
             </a>
