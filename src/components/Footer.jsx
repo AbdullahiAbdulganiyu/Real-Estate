@@ -8,7 +8,7 @@ const Footer = () => {
       id="Footer"
     >
       <div className="container mx-auto flex flex-col md:flex-row justify-between items-start">
-        <div>
+        <div className="w-full md:w-1/3 mb-8 md:mb-0">
           <img src={assets.logo_dark} alt="logo_dark" />
           <p>
             Lorem Ipsum is simply dummy text of the printing and typesetting
