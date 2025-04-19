@@ -17,7 +17,7 @@ const Contact = () => {
       </p>
 
       <form>
-        <div>
+        <div className="flex flex-wrap">
           <div className="w-full md:w-1/2 text-left">
             Your Name
             <input
