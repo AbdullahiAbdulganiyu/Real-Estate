@@ -3,7 +3,10 @@ import { assets } from "../assets/assets";
 
 const Footer = () => {
   return (
-    <div className="pt-10 px-4 md:px-20 lg:px-32 bg-gray-900 w-full overflow-hidden">
+    <div
+      className="pt-10 px-4 md:px-20 lg:px-32 bg-gray-900 w-full overflow-hidden"
+      id="Footer"
+    >
       <div>
         <div>
           <img src={assets.logo_dark} alt="logo_dark" />
