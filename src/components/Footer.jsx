@@ -7,7 +7,7 @@ const Footer = () => {
       className="pt-10 px-4 md:px-20 lg:px-32 bg-gray-900 w-full overflow-hidden"
       id="Footer"
     >
-      <div>
+      <div className="container mx-auto flex flex-col md:flex-row justify-between items-start">
         <div>
           <img src={assets.logo_dark} alt="logo_dark" />
           <p>
