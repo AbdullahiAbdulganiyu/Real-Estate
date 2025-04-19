@@ -28,6 +28,16 @@ const Contact = () => {
               required
             />
           </div>
+          <div className="w-full md:w-1/2 text-left md:pl-4">
+            Your Email
+            <input
+              className="w-full border border-gray-300 rounded py-3 px-4 mt-2 "
+              type="email"
+              name="Email"
+              placeholder="Your Email"
+              required
+            />
+          </div>
         </div>
       </form>
     </div>
