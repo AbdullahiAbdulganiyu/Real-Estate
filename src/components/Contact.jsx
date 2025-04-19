@@ -15,6 +15,15 @@ const Contact = () => {
       <p className="text-center text-gray-500 mb-12 max-w-80 mx-auto">
         Ready to Make a Move?, Let's Build Your Feature Together
       </p>
+
+      <form>
+        <div>
+          <div>
+            Your Name
+            <input type="text" placeholder="Your Name" required />
+          </div>
+        </div>
+      </form>
     </div>
   );
 };
