@@ -16,7 +16,7 @@ const Contact = () => {
         Ready to Make a Move?, Let's Build Your Feature Together
       </p>
 
-      <form>
+      <form className="max-w-2xl mx-auto text-gray-600 pt-8">
         <div className="flex flex-wrap">
           <div className="w-full md:w-1/2 text-left">
             Your Name
