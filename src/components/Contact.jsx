@@ -20,7 +20,12 @@ const Contact = () => {
         <div>
           <div className="w-full md:w-1/2 text-left">
             Your Name
-            <input type="text" placeholder="Your Name" required />
+            <input
+              className="w-full border border-gray-300 rounded py-3 px-4 mt-2 "
+              type="text"
+              placeholder="Your Name"
+              required
+            />
           </div>
         </div>
       </form>
