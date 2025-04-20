@@ -39,6 +39,13 @@ const Footer = () => {
           <p className="text-gray-400 mb-4 max-w-80">
             The latest news, articles and resources, sent to your inbox weekly.
           </p>
+          <div>
+            <input
+              type="email"
+              placeholder="Enter Your Email"
+              className="p-2 rounded bg-gray-800 text-gray-400 border border-gray-700 focus:outline-none w-full md:w-auto"
+            />
+          </div>
         </div>
       </div>
       <div></div>
