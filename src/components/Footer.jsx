@@ -2,6 +2,8 @@ import React from "react";
 import { assets } from "../assets/assets";
 
 const Footer = () => {
+  const data = new Date();
+  const year = data.getFullYear();
   return (
     <div
       className="pt-10 px-4 md:px-20 lg:px-32 bg-gray-900 w-full overflow-hidden"
