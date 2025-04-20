@@ -1,6 +1,6 @@
 import React from "react";
 import { toast } from "react-toastify";
-import { motion } from "motion/react";
+import { motion } from "framer-motion";
 
 const Contact = () => {
   const [result, setResult] = React.useState("");

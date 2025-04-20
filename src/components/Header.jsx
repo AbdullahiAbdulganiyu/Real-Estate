@@ -1,6 +1,6 @@
 import React from "react";
 import NavBar from "./NavBar";
-import { motion } from "motion/react";
+import { motion } from "framer-motion";
 
 const Header = () => {
   return (
