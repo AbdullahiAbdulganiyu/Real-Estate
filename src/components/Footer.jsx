@@ -53,7 +53,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div>Copyright 2025 ©️ GreatStack. All Right Reserved</div>
+      <div>Copyright {year} ©️ GreatStack. All Right Reserved</div>
     </div>
   );
 };
