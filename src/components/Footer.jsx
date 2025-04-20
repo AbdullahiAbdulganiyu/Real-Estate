@@ -36,6 +36,9 @@ const Footer = () => {
           <h3 className="text-white text-lg font-bold mb-4">
             Subscribe to our newsletter
           </h3>
+          <p>
+            The latest news, articles and resources, sent to your inbox weekly.
+          </p>
         </div>
       </div>
       <div></div>
