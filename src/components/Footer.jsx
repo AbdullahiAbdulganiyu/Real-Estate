@@ -32,7 +32,11 @@ const Footer = () => {
             </a>
           </ul>
         </div>
-        <div className="w-full md:w-1/3"></div>
+        <div className="w-full md:w-1/3">
+          <h3 className="text-white text-lg font-bold mb-4">
+            Subscribe to our newsletter
+          </h3>
+        </div>
       </div>
       <div></div>
     </div>
